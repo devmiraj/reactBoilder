@@ -20,6 +20,9 @@ export function Body() {
         <div className="circle">
           <img src={demoImage1} alt="sdsd" />
         </div>
+        <div className="circle">
+          <img src={demoImage1} alt="sdsd" />
+        </div>
       </div>
       <div className="memberList">
         <div className="thumb">
@@ -47,8 +50,9 @@ background:#fff;
     overflow-x: hidden;
     display: flex;
     .circle{
-      min-width: 50px;
-      height: 50px;
+      min-width:45px;
+      width: 45px;
+      height: 45px;
       overflow: hidden;
       margin: 10px 10px 0;
       img{
